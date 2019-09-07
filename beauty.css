@@ -92,3 +92,10 @@ footer > p{
   /* color: white; */
   transform: translate(0,50%);
 }
+
+@media screen and (max-widht:700px) {
+  section::before{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
